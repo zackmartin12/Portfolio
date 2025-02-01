@@ -18,7 +18,7 @@ function Skills() {
         { src: javascript, alt: "JavaScript Icon", label: "JavaScript", color: "#F7DF1E" },
         { src: react, alt: "React Icon", label: "React", color: "#61DAFB" },
         { src: node, alt: "Node Icon", label: "Node.js", color: "#68A063" },
-        { src: express, alt: "Express Icon", label: "Express", color: "#FFFFFF" },
+        { src: express, alt: "Express Icon", label: "Express.js", color: "#FFFFFF" },
         { src: java, alt: "Java Icon", label: "Java", color: "#5382A1" },
         { src: spring, alt: "Spring Icon", label: "Spring", color: "#6DB33F" },
         { src: python, alt: "Python Icon", label: "Python", color: "#3776AB" },
@@ -46,7 +46,7 @@ function Skills() {
                                         src={skill.src}
                                         alt={skill.alt}
                                         className={`w-16 h-16 mb-2 object-contain ${
-                                            skill.label === "Express" ? "filter invert" : ""
+                                            skill.label === "Express.js" ? "filter invert" : ""
                                         }`}
                                     />
                                     <span className="text-lg font-light text-zinc-50/50">
