@@ -34,7 +34,7 @@ function Contact() {
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-4 w-full max-w-4xl">
                     <div className="w-full md:w-1/2 p-6">
                         <h2 className="text-2xl font-semibold text-white">Let's Connect</h2>
-                        <p className="text-zinc-50/50 my-4">If you'd like to get in touch, feel free to shoot me a quick message. You can contact me anytime.</p>
+                        <p className="text-zinc-50/50 my-4">If you'd like to get in touch, feel free to shoot me a quick message.</p>
                         <div className="flex flex-col gap-3">
                             <p className="flex items-center gap-2 text-lg text-zinc-50/50">
                                 <FaEnvelope className="text-white" />
