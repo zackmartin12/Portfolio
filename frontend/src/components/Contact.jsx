@@ -42,7 +42,7 @@ function Contact() {
                             </p>
                             <p className="flex items-center gap-2 text-lg text-zinc-50/50">
                                 <FaPhone className="text-white" />
-                                +828-337-6152
+                                +1 828-337-6152
                             </p>
                             <p className="flex items-center gap-2 text-lg text-zinc-50/50">
                                 <FaMapMarkerAlt className="text-white" />
