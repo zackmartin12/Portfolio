@@ -60,7 +60,7 @@ function Contact() {
                                     id="name"
                                     required
                                     placeholder="Your name"
-                                    className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500"
+                                    className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500 placeholder:text-zinc-50/50"
                                 />
                             </div>
                             <div className="flex flex-col">
@@ -71,7 +71,7 @@ function Contact() {
                                     id="email"
                                     required
                                     placeholder="Your email"
-                                    className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500"
+                                    className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500 placeholder:text-zinc-50/50"
                                 />
                             </div>
                         </div>
@@ -82,7 +82,7 @@ function Contact() {
                                 id="message"
                                 required
                                 placeholder="Your message"
-                                className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500 h-32 resize-none"
+                                className="p-2 rounded-md bg-zinc-50/10 backdrop-blur-lg shadow-lg text-white focus:outline-none focus:ring-2 focus:ring-sky-500 h-32 resize-none placeholder:text-zinc-50/50"
                             />
                         </div>
                         <button

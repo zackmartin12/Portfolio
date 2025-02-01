@@ -9,7 +9,7 @@ function Projects() {
                     <h1 className="text-4xl font-semibold text-center">Projects</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
                         <div className="flex flex-col gap-8 w-full sm:w-3/4 md:w-1/2 lg:w-[400px] mx-auto p-6 rounded-lg border-2 border-zinc-50/10 backdrop-blur-lg shadow-lg text-zinc-50/50 text-lg hover:scale-105 transition duration-300">
-                            <img src={yapper} alt="Yapper" className="w-full h-[300px] object-cover rounded-lg shadow-lg" />
+                        <img src={yapper} alt="Yapper" className="w-full h-auto max-w-full aspect-[4/3] object-contain rounded-lg shadow-lg" />
                             <div>
                                 <p className="font-semibold text-xl text-white">Social Media App</p>
                                 <p className="mt-2 text-zinc-50/50">Full-stack web app built with React, Express.js, MySQL, and Tailwind CSS.</p>
@@ -24,7 +24,7 @@ function Projects() {
                             </div>
                         </div>
                         <div className="flex flex-col gap-8 w-full sm:w-3/4 md:w-1/2 lg:w-[400px] mx-auto p-6 rounded-lg border-2 border-zinc-50/10 backdrop-blur-lg shadow-lg text-zinc-50/50 text-lg hover:scale-105 transition duration-300">
-                            <img src={movemate} alt="Yapper" className="w-full h-[300px] object-cover rounded-lg shadow-lg" />
+                        <img src={movemate} alt="MoveMate" className="w-full h-auto max-w-full aspect-[4/3] object-contain rounded-lg shadow-lg" />
                             <div>
                                 <p className="font-semibold text-xl text-white">Health and Fitness App</p>
                                 <p className="mt-2 text-zinc-50/50">Full-stack web app built with Express.js, MariaDB, and Bootstrap.</p>
