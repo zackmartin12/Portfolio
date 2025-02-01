@@ -2,11 +2,11 @@ import html from "../assets/images/skills/w3_html5-icon.svg";
 import css from "../assets/images/skills/w3_css-icon~old.svg";
 import javascript from "../assets/images/skills/javascript-icon.svg";
 import react from "../assets/images/skills/reactjs-icon.svg";
-import java from "../assets/images/skills/java-icon.svg";
-import python from "../assets/images/skills/python-icon.svg";
-import spring from "../assets/images/skills/springio-icon.svg";
-import express from "../assets/images/skills/expressjs-icon.svg";
 import node from "../assets/images/skills/nodejs-icon.svg";
+import express from "../assets/images/skills/expressjs-icon.svg";
+import java from "../assets/images/skills/java-icon.svg";
+import spring from "../assets/images/skills/springio-icon.svg";
+import python from "../assets/images/skills/python-icon.svg";
 import mysql from "../assets/images/skills/mysql-icon.svg";
 import docker from "../assets/images/skills/docker-icon.svg";
 import git from "../assets/images/skills/git-scm-icon.svg";
@@ -17,8 +17,8 @@ function Skills() {
         { src: css, alt: "CSS Icon", label: "CSS", color: "#1572B6" },
         { src: javascript, alt: "JavaScript Icon", label: "JavaScript", color: "#F7DF1E" },
         { src: react, alt: "React Icon", label: "React", color: "#61DAFB" },
-        { src: express, alt: "Express Icon", label: "Express", color: "#FFFFFF" },
         { src: node, alt: "Node Icon", label: "Node.js", color: "#68A063" },
+        { src: express, alt: "Express Icon", label: "Express", color: "#FFFFFF" },
         { src: java, alt: "Java Icon", label: "Java", color: "#5382A1" },
         { src: spring, alt: "Spring Icon", label: "Spring", color: "#6DB33F" },
         { src: python, alt: "Python Icon", label: "Python", color: "#3776AB" },
@@ -29,7 +29,7 @@ function Skills() {
 
     return (
         <>
-            <section id="skills" className="relative pt-20 flex flex-col items-center min-h-screen px-4 md:px-6 lg:px-8">
+            <section id="skills" className="relative pt-20 flex flex-col justify-center items-center min-h-screen px-4 md:px-6 lg:px-8">
                 <h1 className="text-4xl font-bold text-center mb-8">Skills</h1>
                 <div className="w-full max-w-4xl lg:max-w-3xl">
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-8">
